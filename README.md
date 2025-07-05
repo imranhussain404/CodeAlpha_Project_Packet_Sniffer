@@ -23,7 +23,7 @@ It captures live network traffic and displays source/destination IPs, protocol i
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git](https://github.com/imranhussain404/CodeAlpha_Project_Packet_Sniffer.git
+   git clone https://github.com/imranhussain404/CodeAlpha_Project_Packet_Sniffer.git
    cd CodeAlpha_Project_Packet_Sniffer/NetworkSnifferProject/
 
 
