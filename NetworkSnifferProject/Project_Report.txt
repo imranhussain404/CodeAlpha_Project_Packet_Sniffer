@@ -1,0 +1,72 @@
+------------------------------------------------------------
+Project Title: Python Network Packet Sniffer with GUI
+Student Name : Imran Hossain
+------------------------------------------------------------
+
+🔹 Introduction:
+This project is a basic yet powerful network packet sniffer built using Python. It uses the `scapy` library to capture live network traffic and `tkinter` to provide a graphical interface. The sniffer allows users to inspect incoming and outgoing packets on the network in real time.
+
+🔹 Objective:
+- To understand how network packets work.
+- To implement a basic packet sniffer using Python.
+- To analyze IP, TCP/UDP headers and raw data in captured packets.
+- To visualize packet flow using a GUI.
+
+🔹 Tools and Technologies Used:
+- Python 3
+- Scapy (for packet sniffing)
+- Tkinter (for GUI)
+- Linux (tested on Kali Linux, requires `sudo` privileges)
+
+🔹 Key Features:
+1. **Live Packet Capture**
+   - Captures real-time network traffic.
+2. **Start & Stop Button**
+   - Manual control over when to capture packets.
+3. **Displays Packet Information**
+   - Source IP
+   - Destination IP
+   - Protocol (TCP/UDP)
+   - Port numbers
+   - Payload (first 80 bytes)
+4. **Graphical Interface**
+   - Scrollable window to show packet logs.
+   - Counter to track number of packets captured.
+
+🔹 How to Run:
+1. Open terminal
+2. Navigate to project directory
+3. Run the script with superuser privileges:
+   sudo python3 simple_gui_sniffer.py
+4. Click “Start Capture” to begin sniffing.
+5. Click “Stop Capture” to end.
+
+🔹 Output Example:
+================================================================================
+Time: 12:30:45
+Source IP: 192.168.0.10
+Destination IP: 8.8.8.8
+Protocol: 17
+[UDP] Src Port: 53200, Dst Port: 53
+[Payload] b'\x1a\x2b\x01\x00...'
+
+🔹 Learning Outcomes:
+- Learned how to analyze network packets using Scapy.
+- Understood how different network protocols operate at packet level.
+- Gained experience in building a Python GUI application.
+
+🔹 Limitations & Future Improvements:
+- Currently captures all packets (no protocol filtering).
+- Interface selection and log saving features could be added later.
+- Could be enhanced with packet filtering, exporting to PCAP, or graph visualizations.
+
+------------------------------------------------------------
+This project meets the academic requirements for a basic network sniffer
+with GUI functionality. It demonstrates real-time packet capture, analysis,
+and user interaction through a simple interface.
+------------------------------------------------------------
+
+Submitted by:
+Imran Hossain
+CodeAlpha
+Student ID: CA/JU15/1680
